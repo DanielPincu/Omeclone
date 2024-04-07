@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Chatognito: Chat with Strangers" />
@@ -15,34 +16,76 @@
     <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <title>Homepage:Chatognito</title>
+    
 </head>
 
 <body>
-    <div class="ui menu">
+   <div class="ui hidden divider"></div>
+   <div class="logodesign">
+    <img class="img" src="images/logo.png" alt="Chatognito logo">
+   </div>
+   <div class="ui hidden divider"></div>
+    <div class="">
         <div class="item left floated">
             <div class="ui header">
-                <h1 class="sty">Chatognito</h1>
+                
             </div>
         </div>
+
         <div class="item right floated">
             <h2 class="sty user_text">{{ noOfUsers }} online</h2>
         </div>
     </div>
-    <div class="ui grid divided">
-        <div class="eight wide computer eight wide tablet sixteen wide mobile column center aligned top_clear">
-            <p class="sty add">Chatognito lets you connect with a stranger at random for a one on one chat. Your chats are end to end encrypted and hence you can put forward your ideas freely. Talk to strangers and have fun.</p>
-            <p class="sty add">For any feedback, you can click
-                <a href="https://github.com/wdlsvnit/Chatognitoe/issues" target="_blank" class="link">here</a> and submit the issue encountered. We promise to get back to you soon.</p>
-        </div>
-        <div class="eight wide computer eight wide tablet sixteen wide mobile column center aligned">
+    
+    <div class="ui grid divided center aligned">
+     
+
+    <div class="eight wide computer eight wide tablet ten wide mobile column center aligned">
+
+    <div class=" eight wide computer five wide tablet five wide mobile column center aligned">
             <div class="ui segment">
                 <div class="ui relaxed divided list">
                     <div class="item">
                         <div class="content">
                             <div class="header">
-                                <i class="hand point up icon"></i>
+                                <i class="mouse pointer icon"></i>
                             </div>
-                            <div class="description">Click on the “CHAT WITH STRANGER” button on your device screen.</div>
+                            <div class="description">Click on the “CHAT WITH STRANGER” button to start chatting with a stranger.</div>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="ui hidden divider"></div>
+                <div class="ui hidden divider"></div>
+                <div class="ui hidden divider"></div>
+                
+                <div class="ui button massive computer horizontal animated red inverted disabled" id="termsAndCo">
+                    <div class="visible content">
+                        <span class="sty">Chat with Stranger</span>
+                    </div>
+                    <div class="hidden content">
+                        <span class="sty">TAKE ME THERE</span>
+                    </div>
+                </div>
+                <div class="ui hidden divider"></div>
+                <div class="input">
+                    <input type="checkbox" id="squaredOne">
+                    <span class="agree_text">I agree to all the
+                        <a href="tos.html" class="terms">Terms and Conditions</a>
+                    </span>
+                </div>
+
+            </div>
+
+        {{!-- <div class="eight wide computer eight wide tablet sixteen wide mobile column center aligned">
+            <div class="ui segment">
+                <div class="ui relaxed divided list">
+                    <div class="item">
+                        <div class="content">
+                            <div class="header">
+                                <i class="mouse pointer icon"></i>
+                            </div>
+                            <div class="description">Click on the “CHAT WITH STRANGER” button to start chatting with a stranger.</div>
                         </div>
                     </div>
                     <div class="item">
@@ -77,34 +120,25 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <hr class="hr">
+        </div> --}}
+    </div> 
+    
     <div class="ui hidden divider"></div>
-    <div class="ui grid">
-        <div class="row">
-            <div class="five wide computer five wide tablet three wide mobile column"></div>
-            <div class="six wide computer six wide tablet ten wide mobile column center aligned">
-                <div class="ui hidden divider"></div>
-                <div class="input">
-                    <input type="checkbox" id="squaredOne">
-                    <span class="agree_text">I agree to all the
-                        <a href="https://docs.google.com/document/d/18MKqMDOKq3737K9aKYOXEZWYU9ZCy_3RPMWEhkM8yD8" class="terms">Terms and Conditions</a>
-                    </span>
-                </div>
-                <div class="ui hidden divider"></div>
-                <div class="ui button animated fade massive blue inverted disabled" id="termsAndCo">
-                    <div class="visible content">
-                        <span class="sty">Chat with Stranger</span>
-                    </div>
-                    <div class="hidden content">
-                        <span class="sty">TAKE ME THERE</span>
-                    </div>
-                </div>
-            </div>
-            <div class="five wide computer five wide tablet three wide mobile column"></div>
-        </div>
+    <div class="ui center aligned">
+       
+        <div class="ui hidden divider"></div>
+
+          <div class="five wide computer five wide tablet three wide mobile column">
+            <p class="sty add">Chatognito lets you connect with a stranger at random for a one on one chat. Your chats are end to end encrypted and hence you can put forward your ideas freely. Talk to strangers and have fun.</p>
+            
+        </div> 
+       
+          
     </div>
+
+</div>
+
+</div>
 
     <div class="ui hidden divider"></div>
     <div class="ui hidden divider"></div>
@@ -115,12 +149,11 @@
         <div class="ui secondary segment">
             <div class="wrapper">
                 <div class="item">
-                    <a href="https://webdevlabs.in" class="ui link"></a>
+                    <a href="https://www.chatognito.com" class="ui link">Chatognito 2024</a>
                 </div>
                 <div class="item end">
-                    <a href="https://github.com/wdlsvnit/Chatognitoe" class="terms">
-                        <div class="item links">Fork us on
-                            <i class="github icon"></i>GitHub</div>
+                    <a href="tos.html" class="terms">
+                        <div class="item links">Terms and conditions</div>
                     </a>
                 </div>
             </div>
